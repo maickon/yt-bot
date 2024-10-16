@@ -91,11 +91,11 @@ pip install -r requirements.txt
 
 ## Passo 6: Verifique a instalação
 
-    - Depois que a instalação terminar, todas as bibliotecas mencionadas no requirements.txt estarão prontas para uso. Você pode confirmar isso tentando rodar o projeto com o Python.
+- Depois que a instalação terminar, todas as bibliotecas mencionadas no requirements.txt estarão prontas para uso. Você pode confirmar isso tentando rodar o projeto com o Python.
 
 ## Passo 7: Executar o projeto
 
-    - Agora que tudo está configurado, você pode executar o projeto normalmente usando:
+- Agora que tudo está configurado, você pode executar o projeto normalmente usando:
 
 ```bash
     python nome_do_seu_arquivo.py
