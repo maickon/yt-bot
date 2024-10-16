@@ -1,0 +1,52 @@
+Tutorial: Como copiar e implantar um código no Google Apps Script
+
+Introdução
+
+Este tutorial orientará você sobre como copiar um código para o Google Apps Script, implantá-lo na sua conta e configurá-lo para executar uma função de upload a cada hora, minuto ou dia. Você também aprenderá a alterar o ID da pasta onde os vídeos estão armazenados no Google Drive.
+
+Passo 1: Acessar o Google Apps Script
+
+    Abra o Google Drive.
+    Clique em "Novo" no canto superior esquerdo.
+    Selecione "Mais" e, em seguida, clique em "Google Apps Script."
+
+
+Passo 2: Copiar o código
+
+    Na janela do Google Apps Script, você verá um arquivo de script em branco.
+    Copie o código fornecido (substitua por seu código se houver um exemplo específico) e cole no editor de scripts.
+
+
+Passo 3: Alterar o ID da pasta
+    No código, você verá uma linha como esta:
+    const FOLDER_ID = "1_MXl-zkz6KEzqINMrTmUM52l2_aXQQnD";
+
+
+    Troque o ID na linha acima pelo ID da pasta no Google Drive onde estão os vídeos do usuário. Para encontrar o ID da pasta:
+
+    Acesse o Google Drive e abra a pasta desejada.
+    
+    O ID estará na URL da pasta, entre /folders/ e ? ou no final da URL. Por exemplo, se a URL for https://drive.google.com/drive/folders/1_MXl-zkz6KEzqINMrTmUM52l2_aXQQnD, o ID é 1_MXl-zkz6KEzqINMrTmUM52l2_aXQQnD.
+
+Passo 4: Implantar o script
+    
+    Clique em "Implantar" no menu superior.
+    Selecione "Implantar como aplicativo da web..."
+    Na janela que aparece:
+        Digite um nome para a implantação.
+    Configure quem pode acessar: você pode escolher "Qualquer pessoa" ou "Somente eu," dependendo da sua necessidade.
+    Clique em "Implantar."
+    Você pode ser solicitado a autorizar o script. Siga as instruções para permitir que o script acesse seu Google Drive.
+
+Passo 5: Configurar a execução automática
+
+    Clique no ícone de relógio na barra lateral esquerda (Chamado "Acionadores").
+    Clique em "Adicionar acionador" no canto inferior direito.
+    Na janela que aparece, configure:
+        Escolha qual função executar: Selecione a função que você deseja executar (por exemplo, upload).
+        Escolha a fonte do evento: Selecione "Baseado em tempo".
+        Escolha o tipo de temporizador: Aqui você pode escolher:
+        A cada hora
+        A cada minuto
+        A cada dia
+    Complete as configurações e clique em "Salvar."

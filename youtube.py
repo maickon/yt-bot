@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 import yt_dlp
 
 # Substitua pela sua chave de API do YouTube
-API_KEY = 'AIzaSyAPSIIzt7C4nNC0-JpeHkXi6zF2c6aJDTc'
+API_KEY = ''
 
 def get_channel_id(channel_handle):
     youtube = build('youtube', 'v3', developerKey=API_KEY)
