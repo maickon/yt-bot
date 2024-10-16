@@ -1,0 +1,51 @@
+Como configurar o projeto e instalar as bibliotecas necessárias
+
+Siga os passos abaixo para configurar o ambiente e instalar todas as bibliotecas necessárias para o projeto.
+
+Passo 1: Instale o Python
+
+    Certifique-se de que você tenha o Python instalado em seu sistema.
+
+    Windows: Baixe o Python a partir do site oficial: https://www.python.org/downloads/ e siga as instruções de instalação. Marque a opção "Add Python to PATH" durante a instalação.
+
+    Linux/Mac: Python já vem pré-instalado. Para confirmar, abra o terminal e digite:
+
+    python3 --version
+
+Passo 2: Instale o pip
+
+    O pip é o gerenciador de pacotes do Python, usado para instalar bibliotecas. Ele vem pré-instalado na maioria das instalações do Python. Verifique se o pip está instalado com:
+
+    pip --version
+
+    Se não estiver instalado, siga as instruções em https://pip.pypa.io/en/stable/installation/.
+
+Passo 3: Abra o terminal ou prompt de comando
+
+    Windows: Pressione Win + R, digite cmd e pressione Enter.
+
+    Linux/Mac: Abra o terminal.
+
+Passo 4: Navegue até o diretório do projeto
+
+    No terminal ou prompt de comando, vá até a pasta onde o projeto está localizado. Por exemplo, se o projeto estiver na pasta Documentos/projeto, digite o seguinte comando:
+
+    cd Documentos/projeto
+
+Passo 5: Instale as bibliotecas necessárias
+
+    Agora que você está no diretório do projeto, execute o seguinte comando para instalar todas as bibliotecas:
+
+    pip install -r requirements.txt
+
+    Este comando vai ler o arquivo requirements.txt (que contém as bibliotecas necessárias) e instalar todas elas automaticamente.
+
+Passo 6: Verifique a instalação
+
+    Depois que a instalação terminar, todas as bibliotecas mencionadas no requirements.txt estarão prontas para uso. Você pode confirmar isso tentando rodar o projeto com o Python.
+
+Passo 7: Executar o projeto
+
+    Agora que tudo está configurado, você pode executar o projeto normalmente usando:
+
+    python nome_do_seu_arquivo.py
